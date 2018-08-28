@@ -1,0 +1,17 @@
+
+body {
+    background: url("../images/concrete_wall_2.png");
+}
+
+#portpic {
+
+    height:310px;
+    width: 190px;
+}
+
+.image {
+
+height: 250px;    
+width: 250px;
+
+}
