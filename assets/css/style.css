@@ -1,17 +1,103 @@
-
 body {
-    background: url("../images/concrete_wall_2.png");
+        background: url("../images/concrete_wall_2.png");
+        color: #333;
+        margin: 0;
+}
+
+.headfont {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.otherfont {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.headercontent1 {
+        width: 990px;
+}
+
+.headercontent2 {
+        float: right;
+        margin-left: 15px;
+        margin-right: 0;
+        color: #f788af;
+        text-shadow: 1px 1px #333;
+}
+
+header {
+        color: #333;
+        background: rgba(201, 201, 214, 0.5);
+        overflow: auto;
+        text-align: center;
+        margin-bottom: 30px;
+        height: 60px;
+        padding-left: 15%;
+}
+
+aside {
+        color: #333;
+        text-shadow: 1px 1px #f788af;
+}
+
+h3 {
+        color: #f788af;
+        text-shadow: 1px 1px #333;
+}
+
+#logo {
+        float: left;
+        width: 15%;
+        height: 60px;
+        text-decoration-color: #333;
+        background: #88F7D0;
+        text-align: center;
+}
+
+hr {
+                display: block;
+                border-width: 2px;
+                border-color: #88F7D0;
+}
+
+.centered {
+        background-color: rgba(201, 201, 214, 0.5);
+        width: 960px;
+        display: block;
+        margin-left: 15%;
+        margin-right: auto;
+        padding: 5px 15px;
+        color: #595959;
 }
 
 #portpic {
-
-    height:310px;
-    width: 190px;
+        height:210px;
+        width: 130px;
+        float: left;
+        margin-right: 10px;
+        box-shadow: 4px 4px #88F7D0;
 }
 
 .image {
-
-height: 250px;    
-width: 250px;
-
+        height: 250px;    
+        width: 250px;
+        float: left;
+        overflow: auto;
 }
+
+footer {
+        background-color: rgb(51, 51, 51, 0.6);
+        color: #f788af;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding-top: 40px;
+        border-top: 4px solid #88F7D0;
+        text-shadow: 1px 1px #333;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
