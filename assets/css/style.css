@@ -4,6 +4,10 @@ body {
         margin: 0;
 }
 
+p {
+        text-align: justify;
+}
+
 .headfont {
         font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -54,9 +58,9 @@ h3 {
 }
 
 hr {
-                display: block;
-                border-width: 2px;
-                border-color: #88F7D0;
+        display: block;
+        border-width: 2px;
+        border-color: #88F7D0;
 }
 
 .centered {
@@ -75,6 +79,15 @@ hr {
         float: left;
         margin-right: 10px;
         box-shadow: 4px 4px #88F7D0;
+        margin-bottom: 2px;
+}
+
+h4 {
+        height: 40px;
+        text-decoration-color: #333;
+        background: #88F7D0;
+        text-align: center;
+        text-shadow: 1px 1px #f788af;
 }
 
 .image {
@@ -94,6 +107,27 @@ footer {
         padding-top: 40px;
         border-top: 4px solid #88F7D0;
         text-shadow: 1px 1px #333;
+}
+
+input {
+        width: 100%;
+        color: #333;
+        padding: 8px;
+        box-sizing: border-box;
+        font-size: 13px;
+}
+
+#messageheight {
+        height: 250px;
+        margin-bottom: 15px;
+        padding-top: 15px;
+        padding-bottom: 220px; 
+}
+button {
+background-color: #88F7D0;
+color: #333;
+margin-bottom: 10px;
+font-size: 15px;
 }
 
 .clearfix::after {
