@@ -14,6 +14,7 @@ p {
 
 .otherfont {
         font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
 }
 
 .headercontent1 {
@@ -82,19 +83,15 @@ hr {
         margin-bottom: 2px;
 }
 
-h4 {
-        height: 40px;
-        text-decoration-color: #333;
-        background: #88F7D0;
-        text-align: center;
-        text-shadow: 1px 1px #f788af;
-}
-
 .image {
-        height: 250px;    
+        /* height: 300px;
+        width: 40%;
+        margin: 5%; */
         width: 250px;
+        height: 250px;
         float: left;
         overflow: auto;
+        box-shadow: 4px 4px #f788af;
 }
 
 footer {
@@ -114,7 +111,7 @@ input {
         color: #333;
         padding: 8px;
         box-sizing: border-box;
-        font-size: 13px;
+        font-size: 11px;
 }
 
 #messageheight {
@@ -123,15 +120,32 @@ input {
         padding-top: 15px;
         padding-bottom: 220px; 
 }
+
 button {
-background-color: #88F7D0;
-color: #333;
-margin-bottom: 10px;
-font-size: 15px;
+        background-color: #88F7D0;
+        color: #333;
+        margin-bottom: 10px;
+        font-size: 15px;
+}
+.parenth4 {
+        position: relative;
+        overflow: auto;
+        clear: both;
+}
+
+h4 {
+        width: 250px;
+        height: 40px;
+        text-decoration-color: #333;
+        background: #88F7D0;
+        text-align: center;
+        text-shadow: 1px 1px #f788af;
+        position: absolute;
+        bottom: 0px; 
 }
 
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
+        content: "";
+        display: block;
+        clear: both;
   }
